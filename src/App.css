@@ -1,38 +1,61 @@
-.App {
+.stats-img {
+  width: 100%;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.label {
+  width: 100%;
   text-align: center;
+  color: #eece1a;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.currently {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #eece1a;
+  font-weight: bold;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-container {
+  margin-bottom: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card.card {
+  margin: 20px auto 0 auto;
+  border: 1px solid #eece1a;
+  box-shadow: 0px 10px 30px 0px rgba(205, 205, 205, 0.33);
 }
 
-.App-link {
-  color: #61dafb;
+.card__title.h5 {
+  text-align: center;
+  font-size: 2rem;
+  color: gray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.card__text {
+  text-align: center;
+  font-size: 3rem;
+  color: #eece1a;
+  font-weight: bold;
+}
+
+.rescovered {
+  color: #008000;
+}
+
+.death {
+  color: #000000;
+}
+
+@media(min-width: 768px) {
+  .currently {
+    font-size: 2rem;
+
   }
 }
